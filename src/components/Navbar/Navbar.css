@@ -1,0 +1,63 @@
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 20%;
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+}
+
+.navLeftInputContainer {
+    position: relative;
+}
+
+.navLeftInput {
+    height: 35px;
+    background-color: #EDF3F8;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 40px;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navItemContainer {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navItemContainer:hover {
+    color: black;
+}
+
+.navItemsText {
+    font-size: 14px;
+    color: grey;
+}
+
+.navRightBusinessContainer {
+    display: flex;
+    align-items: center;
+}
+
+.tryPremiumIcon {
+    width: 120px;
+}
