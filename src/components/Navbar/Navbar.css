@@ -2,12 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2px 20%;
+    padding: 2px 15%;
 }
 
 .navLeft {
     display: flex;
     align-items: center;
+}
+
+.navLeftIcon {
+    cursor: pointer;
 }
 
 .navLeftInputContainer {

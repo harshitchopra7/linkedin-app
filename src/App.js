@@ -1,27 +1,28 @@
 import "./App.css";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// components
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home/Home";
+import Profile from "./pages/Profile/Profile";
 
 function App() {
   return (
-    <div>
-      {/* Navbar  */}
-      <Navbar />
+    <BrowserRouter>
+      <div>
+        {/* Navbar  */}
+        <Navbar />
 
-      {/* Homepage = 
-      Left Pane -
-        Profile Summary 
-        Profile Statistics
-        Linkedin Premium Ad
-        Bottom Left Pane
-      Main Feed -
-        Create Post Panel
-        Sorting of Posts 
-        Posts Feed
-      Right Pane -
-        Trending Now Section
-        Promoted Page Ad
-        Footer */}
-    </div>
+        <Routes>
+          {/* / -> Home  */}
+          <Route path="/" element={<Home />} />
+
+          {/* /profile -> Profile  */}
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
