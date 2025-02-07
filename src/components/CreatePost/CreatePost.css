@@ -1,0 +1,63 @@
+.createPostContainer {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.createPostInputContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.createPostImage {
+    height: 60px;
+    border-radius: 50%;
+}
+
+.createPostInput {
+    border-radius: 35px;
+    height: 40px;
+    width: 90%;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.createPostInput:hover {
+    background-color: whitesmoke;
+}
+
+.createPostMethodsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.createPostMethodIndividualContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px 6px;
+}
+
+.createPostMethodIndividualContainer:hover {
+    background-color: whitesmoke;
+}
+
+.createPostInputFieldContainer {
+    position: relative;
+    width: 100%;
+}
+
+.createPostSubmitButtonContainer {
+    position: absolute;
+    right: 15px;
+    top: 35%;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: white;
+}

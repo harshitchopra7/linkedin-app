@@ -17,7 +17,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import AppsIcon from "@mui/icons-material/Apps";
 import SquareIcon from "@mui/icons-material/Square";
 
-function Navbar() {
+function Navbar({ user }) {
   const navigate = useNavigate();
   const ICON_DIMENSIONS = "28px";
 
@@ -56,7 +56,7 @@ function Navbar() {
     {
       id: 6,
       icon: <AccountCircleIcon style={styles} />,
-      text: "Me",
+      text: user ? user?.name : "Me",
     },
   ];
 

@@ -1,0 +1,140 @@
+.postContainer {
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 6px 8px;
+}
+
+.postHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 6px;
+}
+
+.postHeaderInfo {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.postHeaderImage {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+/* user info  */
+.userInfoContainer {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userInfoImage {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.userInfoNameContainer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.userInfoName {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.userInfoName:hover {
+    color: #0A66C2;
+    text-decoration: underline;
+    text-decoration-color: #0A66C2;
+    cursor: pointer;
+}
+
+.userInfoDesgination {
+    font-size: 12px;
+    margin: 4px 0;
+    color: gray;
+    font-weight: 500;
+}
+
+.userInfoTime {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+}
+
+.userInfoFollowContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #0A66C2;
+    padding: 6px 4px;
+    font-weight: 600;
+}
+
+.userInfoFollowContainer:hover {
+    background-color: whitesmoke;
+}
+
+/* post content */
+.postContentContainer {
+    margin: 10px 0;
+}
+
+/* engagement tile */
+.engagementTileContainer {
+    margin: 10px 0;
+}
+
+.engagementTileNumberOfEngagementsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+
+.engagementTileReactions:hover, .engagementTileComments:hover, .showMoreText:hover {
+    color: #0A66C2;
+    text-decoration: underline;
+    text-decoration-color: #0A66C2;
+    cursor: pointer;
+}
+
+.engagementTileTypeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.engagementTileTypeElement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 25%;
+    gap: 5px;
+    padding: 8px 0;
+    border-radius: 4px;
+}
+
+.engagementTileTypeElement:hover {
+    background-color: whitesmoke;
+}
+
+.engagementTileTypeElement > P {
+    margin-left: 6px;
+    font-size: 15px;
+}

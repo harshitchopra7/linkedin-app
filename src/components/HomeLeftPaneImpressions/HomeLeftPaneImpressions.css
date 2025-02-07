@@ -1,0 +1,24 @@
+.homePageLeftImpressionsContainer {
+    font-size: 14px;
+    padding: 8px 18px;
+}
+
+.homePageLeftImpressions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homePageLeftImpressionsText {
+    font-weight: 600;
+}
+
+.homePageLeftImpressionsCount {
+    color: #0a66c2;
+    margin-bottom: 12px;
+}
+
+.homePageLeftImpressionsText:hover, .homePageLeftImpressionsCount:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
